@@ -4,7 +4,7 @@
 
 body {
   display: flex;
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-  width: 1200px;
-  height: 767px;
+  width: 1000px;
+  height: 800px;
   overflow: hidden;
   display: flex;
   position: relative;
@@ -54,7 +54,6 @@ body {
   padding: 10px;
   font-size: 35px;
   text-align: center;
-  /* display: none; */
 }
 
 .mensagem-vitoria {
@@ -73,7 +72,7 @@ body {
 
 .forca {
   width: 500px;
-  margin-top: 45px;
+  margin-top: 10px;
   margin-left: -80px;
 }
 
@@ -88,7 +87,7 @@ body {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 50px;
   text-align: center;
   padding: 30px;
 }
@@ -120,20 +119,22 @@ h2 {
   margin-bottom: 20px;
 }
 
-.dificuldade-acoes, .cadastro-acoes {
+.dificuldade-acoes,
+.cadastro-acoes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.dificuldade-acoes > *, .cadastro-acoes > * {
+.dificuldade-acoes > *,
+.cadastro-acoes > * {
   width: 60%;
 }
 
 button {
   background-color: #4592af;
   color: #33313b;
-  text-shadow: 2px 2px 8px #f6f5f5, -2px -2px 8px #f6f5f5, 02px 2px 8px #f6f5f5,
+  text-shadow: 2px 2px 8px #f6f5f5, -2px -2px 8px #f6f5f5, 0 2px 8px #f6f5f5,
     2px -2px 8px #f6f5f5;
   font-family: "Rye", cursive;
   border-radius: 10px;
@@ -147,7 +148,8 @@ button:hover {
   background-color: #295869;
 }
 
-.dificuldade-acoes button, .cadastro-acoes button {
+.dificuldade-acoes button,
+.cadastro-acoes button {
   padding: 20px;
   margin: 10px;
   font-size: 30px;
@@ -160,7 +162,6 @@ button:hover {
 #jogo {
   display: flex;
   flex-direction: column;
-  /* display: none; */
 }
 
 #jogo > * {
@@ -179,8 +180,8 @@ button:hover {
 .teclado button {
   margin: 5px;
   font-size: 40px;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 80px;
 }
 
 .resposta {
@@ -198,7 +199,7 @@ button:hover {
 
 .palavra > * {
   margin: 0 5px;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   height: 70px;
   border-bottom: 5px solid #232229;
